@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import Providers from "@/app/providers";
+// These styles apply to every route in the application
+import "./globals.css";
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
